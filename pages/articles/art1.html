@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>firsttheme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body>
+  <div class="photo-bg"></div>
+  <div class="photo-bg-overlay"></div>
+
+  <header class="header">
+    <nav class="navbar">
+      <a class="navbar-ref" href="../articles.html">Статьи</a>
+      <a class="navbar-ref" href="../catalog.html">Каталог</a>
+      <a class="navbar-ref" href="../contacts.html">Контакты</a>
+      <a class="navbar-ref" href="../gallery.html">Галлерея</a>
+      <a class="navbar-ref" href="../page-nav.html">Навигация по темам</a>
+      <a class="navbar-ref" href="../registration.html">Регистрация</a>
+      <a class="navbar-ref" href="../../index.html">Главная</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <article class="container">
+
+      <h1 class="head-articl">Что лучше — <b>React</b> или <b>Angular?</b></h1>
+
+      <div class="articles">
+        <h2 class="h2-header-articles">Главное отличие</h2>
+        <p class="uppercase">Основным отличием React и Angular считается тот момент, что первый использует Virtual DOM.
+          И
+          данный факт
+          относят к преимуществам указанного фреймворка.</p>
+        <p class="uppercase"><b>DOM</b> — это способ представить содержания HTML-документа в виде объектов. Кроме того,
+          имеется интерфейс
+          для управления указанными объектами.</p>
+        <p class="uppercase">Существует обычный DOM (также его называют реальным) и виртуальный. В чём же разница?
+          Рассмотрим
+          на примере.
+          Если Вы хотите изменить определённую информацию, находящуюся в тегах HTML, то алгоритмы будут действовать
+          следующим образом:</p>
+        <p class="uppercase">
+          <b>Реальный DOM</b> будет проводить обновление всех тегов, пока не найдёт нужный фрагмент. А это в некоторых
+          случаях
+          негативно сказывается на производительности и остальных параметрах. Виртуальный DOM обновит только необходимый
+          фрагмент HTML.
+        </p>
+        <h2 class="h2-header-articles">Сравнение React и Angular</h2>
+        <p class="uppercase">Вы задаётесь вопросом, чем React лучше Angular? Ведь многие разработчики считают именно
+          так.
+          Объясним, что же
+          легло в основу этого мнения. В первую очередь, стоит отметить — React был разработан на несколько лет ранее,
+          чем
+          Angular, и претерпел множество изменений. Как результат, превратился в удобное приложение, которым
+          предпочитают
+          пользоваться большинство разработчиков.</p>
+        <p class="uppercase">Кроме того, React имеет в своей базе огромное количество кодов (около 100 тыс.). А готовых
+          решений — 300.
+          Программа является по своей сути библиотекой с открытым исходным кодом. Основное отличие Angular от react
+          заключается в том, что первый имеет каркасную структуру. В его базе 1800 готовых решений. Однако данное
+          приложение обладает большими размерами.</p>
+        <p class="uppercase">Оба фреймворка работают с нативными и веб-приложениями:</p>
+        <div class="articl-lists">
+          <ul>
+            <li>
+              <h2 class="h2-header-articles">React</h2>
+              <ol>
+                <li>нативные приложения разрабатываются с React Native;</li>
+                <li>кроссплатформенные (Android, iOS) разрабатываются с React Native Renderer.</li>
+              </ol>
+            </li>
+            <li>
+              <h2 class="h2-header-articles">Angular</h2>
+              <ol>
+                <li>нативные приложения разрабатываются с NativeScript;</li>
+                <li>разработка гибридных приложений происходит с Ionic Framework.</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+        <p class="uppercase">При этом у каждого из фреймворков свои слабые и сильные стороны. Остановимся на этом
+          подробнее.
+        </p>
+        <h2 class="h2-header-articles">Преимущества и недостатки React</h2>
+        <p class="uppercase">Итак, какие же имеет преимущества React?</p>
+        <div class="articl-lists">
+          <ul>
+            <li>В основе простые языки программирования.</li>
+            <li>Чрезвычайная гибкость приложения.</li>
+            <li>Использование DOM.</li>
+            <li>Приложение выдерживает большие нагрузки.</li>
+            <li>React и SEO хорошо ладят. Поисковым ботам проще просматривать сайты, улучшается взаимодействие
+              пользователей с Вашим ресурсом.</li>
+            <li>Обеспечивает неизменность родительских данных.</li>
+            <li>Имеет открытую библиотеку данных.</li>
+            <li>Небольшой вес базы данных</li>
+            <li>Обеспечивает простую миграцию между версиями.</li>
+            <li>Гибридные мобильные приложения на React внешне почти не отличаются от нативных</li>
+          </ul>
+        </div>
+        <p class="uppercase">Что касается недостатков, то их меньше. Однако тоже присутствуют.</p>
+        <div class="articl-lists">
+          <ol>
+            <li>Неупорядоченность документации</li>
+            <li>Большой выбор инструментов ставит в тупик.</li>
+            <li>Для освоения всех нюансов требуется длительное время.</li>
+          </ol>
+        </div>
+        <p class="uppercase">Теперь от минусов и плюсов React JS перейдём к характеристикам Angular.</p>
+        <h2 class="h2-header-articles">Преимущества и недостатки Angular</h2>
+        <p class="UpCase">У Angular следующие достоинства.</p>
+        <div class="articl-lists">
+          <ol>
+            <li>Большое количество разнообразных функций.</li>
+            <li>Функции взаимозависимы.</li>
+            <li>Информацию можно получать напрямую, а не через третьих лиц.</li>
+            <li>Представлена возможность работать отдельно в одном разделе программы, используя имеющиеся данные.</li>
+            <li>Минимальный риск ошибок.</li>
+            <li>В основе сложный язык программирования.</li>
+            <li>Ошибки во время миграции между версиями.</li>
+          </ol>
+        </div>
+        <p class="uppercase">Если для Ваших целей важно SEO, то специалисты не советуют делать на JS продвижение сайта.
+          В
+          таком случае
+          меньшее количество JavaScript поможет выше подняться в поисковой выдаче.</p>
+        <h2 class="h2-header-articles">Выводы</h2>
+        <p class="uppercase">Начинающие разработчики часто задаются вопросом, что проще React или Angular? Ответ
+          однозначен.
+          В освоении,
+          безусловно, проще Angular. Тем не менее React предоставляет в разы больше возможностей. Исходя из этого, стоит
+          просто расставить приоритеты и выбрать то, что более подходит для конкретной задачи.</p>
+      </div>
+    </article>
+    <div class="container" id="comm">
+      <h3 class="h3-comm">Коментарии:</h3>
+      <div class="commet-block">
+        <div class="userAvatar">
+          <img class="photo" src="../../img/vasia.jpg" alt="VasiaAvatar">
+        </div>
+        <div class="textcomm">
+          <p class="user-text">очень интересно, я бы даже сказал - невероятно</p>
+        </div>
+      </div>
+      <p><a href="#"><span class="username">Вася Пупкин</span></a></p>
+      <div class="btn-comm">
+        <a href="#">Ответить</a>
+      </div>
+      <div class="commet-block">
+        <div class="userAvatar">
+          <img class="photo" src="../../img/avatar2.jpg" alt="Avatar">
+        </div>
+        <div class="textcomm">
+          <p class="user-text">Я конечно не эксперт в ваших ИТ штучках, но одно знаю точно, бабки ты заработаешь
+            хорошоие.
+          </p>
+        </div>
+      </div>
+      <p><a href="#"><span class="username">НеИтСпециалист</span></a></p>
+      <div class="btn-comm">
+        <a href="#">Ответить</a>
+      </div>
+      <div class="commet-block">
+        <div class="userAvatar">
+          <img class="photo" src="../../img/avatar3.jpeg" alt="Avatar">
+        </div>
+        <div class="textcomm">
+          <p class="user-text">Однажды я хотел стать поваром, потом мне это надоело. я решил стать пекарем, но и печь
+            булки мне тоже надоело. Тогда я решил стать гитаристом, играл где то год и это мне надоело. В конце концов я
+            пошел на курсы FrontEnd к Фоменко Андрею, который конечно же не прочитает этот коментарий, и остался
+            доаовльным от того насколько это интересно. Всем Мира!</p>
+        </div>
+      </div>
+      <p><a href="#"><span class="username">Какой-то Мужик</span></a></p>
+      <div class="btn-comm">
+        <a href="#">Ответить</a>
+      </div>
+      <div class="commet-block">
+        <div class="userAvatar">
+          <img class="photo" src="../../img/Stetheam.jpg" alt="Avatar">
+        </div>
+        <div class="textcomm">
+          <p class="user-text">Если тебе где-то не рады в рваных носках, то и в целых туда идти не стоит!</p>
+        </div>
+      </div>
+      <p><a href="#"><span class="username">Джэйсон Стэйтем</span></a></p>
+      <div class="btn-comm">
+        <a href="#">Ответить</a>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+
+    <div class="navbar-social">
+      <a class="social-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-github"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="container">
+      <div class="copy">
+        <p class="copyright">&#169; Храпаль Артем</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

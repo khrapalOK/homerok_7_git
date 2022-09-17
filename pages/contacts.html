@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="photo-bg"></div>
+  <div class="photo-bg-overlay"></div>
+
+  <header class="header">
+    <nav class="navbar">
+      <a class="navbar-ref" href="articles.html">Статьи</a>
+      <a class="navbar-ref" href="catalog.html">Каталог</a>
+      <a class="navbar-ref active" href="contacts.html">Контакты</a>
+      <a class="navbar-ref" href="gallery.html">Галерея</a>
+      <a class="navbar-ref" href="page-nav.html">Навигация по темам</a>
+      <a class="navbar-ref" href="registration.html">Регистрация</a>
+      <a class="navbar-ref" href="../index.html">Главная</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <div class="cont-group">
+        <h1 class="head-articl">Контакты</h1>
+        <div>
+          <h2 class="h2-header-articles">Наш адрес:</h2>
+          Украина, г. Днепр <br>
+          49000 <br>
+          Пр.Мира 6, 1 этаж <br>
+          вход со стороны ресторана <b>"Napoli"</b>
+        </div>
+        <div>
+          <h2 class="h2-header-articles">Как нас найти</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.2916557313692!2d35.01883421589466!3d48.52764213189114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d958b412de3557%3A0x59697592651e6398!2z0L_RgNC-0YHQvy4g0JzQuNGA0LAsIDYsINCU0L3QtdC_0YAsINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0OTAwMA!5e0!3m2!1sru!2sua!4v1661712653590!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div>
+          <h2 class="h2-header-articles">График Работы</h2>
+          <div class="work">
+            <ul class="work-schedule">
+              <li> Пн с 9:00 - 18:00 </li>
+              <li> Вт с 9:00 - 18:00 </li>
+              <li> Ср с 9:00 - 18:00 </li>
+              <li> Чт с 9:00 - 18:00 </li>
+              <li> Пт с 9:00 - 18:00 </li>
+              <li> Сб с 9:00 - 18:00</li>
+              <li> Вс - Выходной </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Форма обратной связи</legend>
+          <div class="form-group">
+            <label class="form-label" for="name">Имя</label>
+            <input class="form-input" type="text" id="name" name="firstname" placeholder="Имя">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="secondname">Фамилия</label>
+            <input class="form-input" type="text" id="secondname" name="family" placeholder="Фамилия">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="telephone">Телефон</label>
+            <input class="form-input" type="tel" id="telephone" name="phone" placeholder="+380-ХХХ-ХХХ-ХХХ">
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <div class="form-group">
+            <label class="form-label" for="text">Задайте нам свой вопрос</label>
+            <textarea class="textarea" id="text" name="text"></textarea>
+          </div>
+          <div class="btn-group">
+            <button class="button" type="submit">Отправить</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+
+    <div class="navbar-social">
+      <a class="social-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-github"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="container">
+      <div class="copy">
+        <p class="copyright">&#169; Храпаль Артем</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

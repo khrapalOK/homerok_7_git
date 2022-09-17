@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="photo-bg"></div>
+  <div class="photo-bg-overlay"></div>
+
+  <header class="header">
+    <nav class="navbar">
+      <a class="navbar-ref" href="articles.html">Статьи</a>
+      <a class="navbar-ref" href="catalog.html">Каталог</a>
+      <a class="navbar-ref" href="contacts.html">Контакты</a>
+      <a class="navbar-ref" href="gallery.html">Галерея</a>
+      <a class="navbar-ref" href="page-nav.html">Навигация по темам</a>
+      <a class="navbar-ref active" href="registration.html">Регистрация</a>
+      <a class="navbar-ref" href="../index.html">Главная</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="container">
+
+      <h1 class="head-articl">Регистрация</h1>
+
+      <form class="form" action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Форма для заполнения</legend>
+          <div class="form-group">
+            <label class="form-label" for="firstname">Фамилия</label>
+            <input class="form-input" name="firstname" id="firstname" type="text" placeholder="Фамилия">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="name">Имя</label>
+            <input class="form-input" name="name" id="name" type="text" placeholder="Имя">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Почта</label>
+            <input class="form-input" name="email" id="email" type="email" placeholder="Эл.почта">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="password">Пароль</label>
+            <input class="form-input" name="password" id="password" type="password" placeholder="пароль">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="date">Дата Рождения</label>
+            <input class="form-input" type="date" name="dateofbirth" id="date">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="website">Введите адрес сайта</label>
+            <input class="form-input" name="website" id="website" type="text" placeholder="https://mysite.name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="file"> Загрузите фото </label>
+            <input class="form-input" name="file" id="file" type="file">
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Выберите Пол</legend>
+          <div class="form-group-ch">
+            <label class="form-label" for="gender-male">Муж</label>
+            <input class="form-input" name="gender" id="gender-male" type="radio" value="male">
+          </div>
+          <div class="form-group-ch">
+            <label class="form-label" for="gender-female">Жен</label>
+            <input class="form-input" name="gender" id="gender-female" type="radio" value="female">
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Выберите предпочитаемую кухню</legend>
+          <div class="form-group-ch">
+            <input class="form-input" checked id="kitchen-ua" type="checkbox" name="kitchen1" value="ua">
+            <label class="form-label" for="kitchen-ua">Украинская кухня</label>
+          </div>
+          <div class="form-group-ch">
+            <input class="form-input" checked id="kitchen-ch" type="checkbox" name="kitchen2" value="cn">
+            <label class="form-label" for="kitchen-ch">Китайская кухня</label>
+          </div>
+          <div class="form-group-ch">
+            <input class="form-input" checked id="kitchen-jp" type="checkbox" name="kitchen3" value="jp">
+            <label class="form-label" for="kitchen-jp">Японская кухня</label>
+          </div>
+          <div class="form-group-ch">
+            <input class="form-input" checked id="kitchen-it" type="checkbox" name="kitchen4" value="it">
+            <label class="form-label" for="kitchen-it">Итальянская кухня</label>
+          </div>
+          <div class="form-group-ch">
+            <input class="form-input" checked id="kitchen-de" type="checkbox" name="kitchen5" value="de">
+            <label class="form-label" for="kitchen-de">Немецкая кухня</label>
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Давай поговрим</legend>
+          <div class="form-group">
+            <label class="form-label" for="text">расскажите о себе</label>
+            <textarea class="textarea" name="text" id="text"></textarea>
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">подтверди действия</legend>
+          <div class="btn-group">
+            <button class="button" type="submit">Зарегестрироваться</button>
+            <button class="button" type="reset">Очистить форму</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+
+    <div class="navbar-social">
+      <a class="social-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-github"></i></a>
+      <a class="social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="container">
+      <div class="copy">
+        <p class="copyright">&#169; Храпаль Артем</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
